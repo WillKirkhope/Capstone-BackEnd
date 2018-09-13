@@ -8,13 +8,13 @@
 - Thanks to (Insert Name Here) you will be able to connect with people who share similar interests and play styles as you. (Insert name here) acts as the in-between, a social platform of sorts that will let you build a profile that showcases your interests and play styles, as well as a bit of bragging rights(Video Upload). You will also be able to create LFG posts which is the main functionality of the app, these posts will be public for all users to see(Based on Game you are searching for), and will allow people to connect with you via(Messaging stretch goal) and connect in game to tackle the next Raid, Competitive games, casual play, quest help and so on.
 
 ## User Stories ##
-- See Trello Board
+- https://trello.com/b/7zbtZTyN/capstone-user-stories
 
 ## Tech Used ##
 - HTML5, CSS3, Vue.js, Bootstrap or Vuetify, Firebase, Heroku, PostgreSQL, Knex, (GraphQL), (Apollo Client), (Docker).(Sequalize)
 
 ## ERD ##
--
+- https://github.com/WillKirkhope/Capstone-BackEnd/blob/master/DataBase/Capstone%20ERD.png
 
 ## Wireframe ##
-- See Assets Folder
+- https://github.com/WillKirkhope/Capstone-FrontEnd/tree/master/Front-End/WireFrames
