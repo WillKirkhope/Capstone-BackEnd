@@ -17,7 +17,7 @@ exports.seed = function(knex, Promise) {
           GamerTag: "Im All Nuts",
           Description: "Casual player just playing with my friends!",
           Playstlye: "Casual, Fun, Relaxed",
-          FavoriteGame: "Destiny 2, Battlefield 1",
+          FavoriteGames: "Destiny 2, Battlefield 1",
           Image: "",
            Video: ""
         },
@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
           GamerTag: "Psyker69",
           Description: "I Suck at video games, looking for friends to help me git gud",
           Playstlye: "Bad, Pleb, Noob, Clueless",
-          FavoriteGame: "Destiny 2, Rocket league",
+          FavoriteGames: "Destiny 2, Rocket league",
           Image: "",
           Video: ""
         }
