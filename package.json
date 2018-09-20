@@ -4,6 +4,7 @@
   "description": "- (Insert Name Here) is an lfg posting/social platform for gamers who are looking to connect with players who have similar interests as them. (Insert Name Here) will help connect people together for online gaming in a ,ore social less toxic manner, no crazy screaming squeakers in your part chat, no angry rage quitters, just people that want to play, and play the way you like to.",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
