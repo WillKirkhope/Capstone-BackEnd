@@ -5,7 +5,7 @@ const queries = require("../Database/queries")
 
 router.get('/', (req,res,next) => {
     queries.list('posts')
-    .then(event => {
+    .then(post => {
         res.json({post})
     })
 })

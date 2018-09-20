@@ -5,7 +5,7 @@ const queries = require("../Database/queries")
 
 router.get('/', (req,res,next) => {
     queries.list('users')
-    .then(event => {
+    .then(users => {
         res.json({users})
     })
 })
@@ -13,7 +13,7 @@ router.get('/', (req,res,next) => {
 router.get('/:id', function(request,response){
   queries.read("users", request.params.id).then(user => {
       event
-          ? response.json({user})
+          ? response.json({users})
           : response.status(404).json({message: 'Not found'})
   })
 })
