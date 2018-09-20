@@ -6,7 +6,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('posts').insert([
         {
-          Userid: 1,
           Gamertag: "Pictish Brute",
           Game: "Destiny 2",
           Activity: "Competitive Crucible",
@@ -16,7 +15,6 @@ exports.seed = function(knex, Promise) {
           Mic: "Yes"
         },
         {
-          UserId: 2,
           Gamertag: "Im All Nuts",
           Game: "Destiny 2",
           Activity: "Nightfall",
@@ -26,7 +24,6 @@ exports.seed = function(knex, Promise) {
           Mic: "Don’t Care"
         },
         {
-          userId: 3,
           Gamertag: "Psyker69",
           Game: "Destiny 2",
           Activity: "Quest Help",
@@ -36,7 +33,6 @@ exports.seed = function(knex, Promise) {
           Mic: "No"
         },
         {
-          userId: 1,
           GamerTag: "Pictish Brute",
           Game: "Titanfall 2",
           Activity: "Titan Brawl",
@@ -46,7 +42,6 @@ exports.seed = function(knex, Promise) {
           Mic: "No"
         },
         {
-          User id: 2,
           GamerTag: "Im All Nuts",
           Game: "TitanFall 2",
           Activity: "Attrition",

@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('games', games => {
-    games.increments()
-    games.int.references.posts('id')
+    games.integer('gameId').references('gameId')
+    games.integer('postId').references('posts.id')
   })
 };
 
