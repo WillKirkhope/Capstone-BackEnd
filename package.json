@@ -1,0 +1,27 @@
+{
+  "name": "Capstone-BackEnd",
+  "version": "1.0.0",
+  "description": "- (Insert Name Here) is an lfg posting/social platform for gamers who are looking to connect with players who have similar interests as them. (Insert Name Here) will help connect people together for online gaming in a ,ore social less toxic manner, no crazy screaming squeakers in your part chat, no angry rage quitters, just people that want to play, and play the way you like to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillKirkhope/Capstone-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillKirkhope/Capstone-BackEnd/issues"
+  },
+  "homepage": "https://github.com/WillKirkhope/Capstone-BackEnd#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  }
+}
