@@ -7,15 +7,15 @@ module.exports = {
     read(tableName, id) {
       return database(tableName).select().where('id', id)
     },
-    post(tableName, newEvent) {
+    post(tableName, newPost) {
       return database(tableName)
         .insert(newEvent)
         .returning('*')
         .then(record => record[0])
     },
-    update(tableName, id, newEvent) {
+    update(tableName, id, newPost) {
       return database(tableName)
-        .update(newEvent)
+        .update(newPost)
         .where('id', id)
         .returning('*')
         .then(record => record[0])
