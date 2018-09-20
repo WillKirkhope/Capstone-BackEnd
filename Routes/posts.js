@@ -27,7 +27,7 @@ router.post('/', function(request,response,next){
 
 router.put('/:id', function(request,response,next){
   queries.update("posts", request.params.id, request.body)
-  .then(updatedPost => response.json(updatedPost))
+  .then(updatedForm => response.json(updatedForm))
 })
 
 router.delete('/:id', function(request,response,next){
