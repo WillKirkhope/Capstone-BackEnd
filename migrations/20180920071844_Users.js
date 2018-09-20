@@ -5,8 +5,8 @@ exports.up = function(knex, Promise) {
     users.string('Description')
     users.string('PlayStyle')
     users.string('FavoriteGames')
-    users.string('Image')
-    users.string('Video')
+    users.text('Image')
+    users.text('Video')
   })
 };
 
