@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
         {
           GamerTag: "Pictish Brute",
           Description: "Enjoy playing fast paced and competitive, doing raids and helping friends!",
-          Playstyle: "Aggressive, Competitive, Completionist",
+          PlayStyle: "Aggressive, Competitive, Completionist",
           FavoriteGames: "Destiny 2, TitanFall 2",
           Image: "",
           Video: ""
@@ -16,7 +16,7 @@ exports.seed = function(knex, Promise) {
         {
           GamerTag: "Im All Nuts",
           Description: "Casual player just playing with my friends!",
-          Playstlye: "Casual, Fun, Relaxed",
+          PlayStlye: "Casual, Fun, Relaxed",
           FavoriteGames: "Destiny 2, Battlefield 1",
           Image: "",
            Video: ""
@@ -24,7 +24,7 @@ exports.seed = function(knex, Promise) {
         {
           GamerTag: "Psyker69",
           Description: "I Suck at video games, looking for friends to help me git gud",
-          Playstlye: "Bad, Pleb, Noob, Clueless",
+          PlayStlye: "Bad, Pleb, Noob, Clueless",
           FavoriteGames: "Destiny 2, Rocket league",
           Image: "",
           Video: ""
