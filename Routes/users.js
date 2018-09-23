@@ -12,7 +12,7 @@ router.get('/', (req,res,next) => {
 
 router.get('/:id', function(request,response){
   queries.read("users", request.params.id).then(user => {
-      event
+      user
           ? response.json({user})
           : response.status(404).json({message: 'Not found'})
   })
