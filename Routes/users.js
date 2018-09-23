@@ -6,7 +6,7 @@ const queries = require("../Database/queries")
 router.get('/', (req,res,next) => {
     queries.list('users')
     .then(users => {
-        res.json({user})
+        res.json({users})
     })
 })
 
