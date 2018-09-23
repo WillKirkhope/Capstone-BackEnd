@@ -6,14 +6,14 @@ const queries = require("../Database/queries")
 router.get('/', (req,res,next) => {
     queries.list('users')
     .then(users => {
-        res.json({users})
+        res.json({user})
     })
 })
 
 router.get('/:id', function(request,response){
   queries.read("users", request.params.id).then(user => {
       event
-          ? response.json({users})
+          ? response.json({user})
           : response.status(404).json({message: 'Not found'})
   })
 })
