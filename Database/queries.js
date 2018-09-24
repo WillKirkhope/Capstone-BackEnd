@@ -9,7 +9,7 @@ module.exports = {
     },
     post(tableName, newPost) {
       return database(tableName)
-        .insert(newEvent)
+        .insert(newPost)
         .returning('*')
         .then(record => record[0])
     },
