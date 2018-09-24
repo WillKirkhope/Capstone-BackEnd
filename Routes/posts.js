@@ -19,7 +19,7 @@ router.get('/:id', function(request,response){
 })
 
 router.post('/', function(request,response,next){
-  queries.post("posts", request.body)
+  queries.post(request.body, "posts")
   .then(newPost => {
     response.status(201).json({newPost})
   })
